@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFBFB"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/avd_up"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_margin="62dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fluid_card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/material_material_show"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:padding="14dp"
+            android:backgroundTint="@android:color/white"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="8dp"
+            android:translationZ="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/avd_up"
+            app:layout_constraintEnd_toEndOf="@+id/avd_up"
+            app:layout_constraintStart_toStartOf="@+id/avd_up"
+            app:layout_constraintTop_toTopOf="@+id/avd_up"
+            app:layout_constraintVertical_bias="0.76">
+
+            <ImageView
+                android:id="@+id/imageExpandIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_expand_less_24"
+                android:backgroundTint="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/sampleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:text="Un sillon"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/avd_up"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/avd_up"
+            app:layout_constraintTop_toTopOf="@+id/avd_up" />
+
+        <TextView
+            android:id="@+id/sampleTextViewWithIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_volume_up_24"
+            android:text="see-yawn"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/sampleTextView"
+            app:layout_constraintStart_toStartOf="@+id/sampleTextView"
+            app:layout_constraintTop_toBottomOf="@+id/sampleTextView" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/sampleTextView"
+            app:layout_constraintEnd_toEndOf="@+id/avd_up"
+            app:layout_constraintStart_toStartOf="@+id/avd_up"
+            app:layout_constraintTop_toTopOf="@+id/avd_up">
+
+            <ImageView
+                android:id="@+id/sampleImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sample_image"
+                tools:layout_editor_absoluteX="135dp"
+                tools:layout_editor_absoluteY="238dp" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/avd_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="62dp"
+            android:rotation="180"
+            android:scaleType="fitXY"
+            android:scaleX="-1"
+            android:src="@drawable/fluid_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sampleTextView" />
+
+
+        <TextView
+            android:id="@+id/textViewBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:alpha="0"
+            android:text="An armchair"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/avd_bottom"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/avd_bottom"
+            app:layout_constraintTop_toTopOf="@+id/avd_bottom" />
+
+        <TextView
+            android:id="@+id/textViewBottom2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Mi papa compro un sillon y una mesa de centro para la sala"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/avd_bottom"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/avd_bottom"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBottom" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bottom_top_drawable"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:rotation="180"
+            android:src="@drawable/bottom_top_drawable"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="check out code at github :"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="asfdasf"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="created by pratik katariya"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
