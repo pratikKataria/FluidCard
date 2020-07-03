@@ -49,10 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         AnimatorSet topAnimationSet = new AnimatorSet();
         topAnimationSet.play(valueAnimatorBuilder(binding.materialMaterialShow))
-                .with(valueAnimatorBuilder(binding.avdUp))
-                .with(valueAnimatorBuilder(binding.sampleTextView))
-                .with(valueAnimatorBuilder(binding.sampleTextViewWithIcon))
-                .with(valueAnimatorBuilder(binding.sampleImageView));
+                .with(valueAnimatorBuilder(binding.avdUp));
 
 
         AnimatorSet bottomAnimationSet = new AnimatorSet();
