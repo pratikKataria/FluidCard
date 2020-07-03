@@ -20,7 +20,7 @@
          alt="GitHub tweet">
 </p>
 
-<h1 align="center"> Cuberto's development lab Android Port : </h1>
+<h1 align="center"> Cuberto's development lab - Fuild Card Android Port : </h1>
 <h4 align="center"> Cuberto is a leading digital agency with solid design and development expertise. </h4>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/fluid-card/master/LICENSE)
@@ -29,6 +29,12 @@
 
 
 Showcase of animation expandable card control
+
+offical dribble art : https://dribbble.com/shots/6442474-Fluid-Card-Open-Source
+
+For HTML && CSS Animation by **Modal Mitosis** https://codepen.io/team/keyframers/pen/YbGbOd
+
+For Swift (ios app development) : https://github.com/Cuberto/fluid-card
 
 ## Android Port 
 Pratik katariya (2020)
