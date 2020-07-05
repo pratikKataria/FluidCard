@@ -46,7 +46,7 @@ Cuberto Design, info@cuberto.com
 ## Support
 
 Reach out to me at one of the following places:
-
+- Reddit Post: https://www.reddit.com/r/androiddev/comments/hkzb39/feedback_fluid_card_animation_android/
 - E-Mail: **pratikkatariya3.pk@gmail.com**
 
 
