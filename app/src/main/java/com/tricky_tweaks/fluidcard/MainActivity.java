@@ -105,4 +105,5 @@ public class MainActivity extends AppCompatActivity {
     /*git merge 2 practice via android studio*/
     /*git created new branch from try via android studio*/
     /*new commit into branch from try via android studio*/
+    /*new feature added in to branch from task and want to merge directly into the master*/
 }
