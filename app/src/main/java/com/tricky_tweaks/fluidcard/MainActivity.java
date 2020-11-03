@@ -102,4 +102,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*git merge practice via android studio*/
+    /*git merge 2 practice via android studio*/
 }
