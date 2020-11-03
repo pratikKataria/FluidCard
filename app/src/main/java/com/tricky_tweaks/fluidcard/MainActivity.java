@@ -100,4 +100,6 @@ public class MainActivity extends AppCompatActivity {
         textAnimator.setTarget(targetView);
         return textAnimator;
     }
+
+    /*git merge practice via android studio*/
 }
